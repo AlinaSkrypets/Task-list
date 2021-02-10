@@ -1,0 +1,156 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+button[disabled] {
+  color:#b7b7b7;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.header-nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.header-nav ul li {
+  padding-right: 20px;
+}
+
+.counter-page__wrapper {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.time {
+  margin-top: 10px;
+}
+
+.show-date__button {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.todo-item div {
+  display: flex;
+}
+.todo-item div > p {
+  margin-right: 10px;
+}
+
+.main-wrapper {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.create-todo__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-todo__inner {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.create-todo__inner .create-todo__input,
+.create-todo__inner .ant-picker {
+  margin-right: 30px;
+}
+
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-value {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #828282;
+  border-radius: 4px;
+}
+
+.todos-page {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.button {
+  color: #828282;
+  padding: 10px 20px;
+  background: transparent;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 1px solid #828282;
+  cursor: pointer;
+  outline: none;
+  transition: .2s;
+}
+
+.clock-wrapper {
+  text-align: center;
+}
+
+.buttons-wrapper button:not(:last-child) {
+  margin-right: 20px;
+}
+
+.button:hover {
+  background: #828282;
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,8 @@
+.todos-wrapper {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+}
+.todo-item {
+    display: flex;
+}

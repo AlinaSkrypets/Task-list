@@ -1,0 +1,2 @@
+export const ADD_NEW_TO_DO = "ADD_NEW_TO_DO";
+export const COUNTER_INCREMENT = "COUNTER_INCREMENT";
